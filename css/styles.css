@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.topMain{
+		padding-top:10vw;
+	}
+
+@media (max-width: 768px) {
+	.topMain{
+		padding-top:15vw;
+	}
+}
+
+@media (max-width: 590px) {
+	.topMain{
+		padding-top:17vw;
+	}
+}
+
+@media (max-width: 576px) {
+	.topMain{
+		padding-top:17vw;
+	}
+}
+
+@media (max-width: 510px) {
+	.topMain{
+		padding-top:20vw;
+	}
+}
+
+@media (max-width: 410px) {
+	.topMain{
+		padding-top:25vw;
+	}
+}
+
+@media (max-width: 340px) {
+	.topMain{
+		padding-top:30vw;
+	}
+}
+
+@media (max-width: 264px) {
+	.topMain{
+		padding-top:35vw;
+	}
+}
+
+@media (max-width: 230px) {
+	.topMain{
+		padding-top:40vw;
+	}
+}
+
+@media (max-width: 200px) {
+	.topMain{
+		padding-top:50vw;
+	}
+}
