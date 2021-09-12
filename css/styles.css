@@ -25,6 +25,10 @@
 	border-color: #300A14;
 }
 
+.buttonLink{
+	cursor: pointer;
+}
+
 .seperationLine {
 	display: inline;
 }
