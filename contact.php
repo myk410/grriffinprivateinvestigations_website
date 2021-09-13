@@ -9,6 +9,24 @@ if(isset($_POST['submit'])){
 			$Email = !empty($_POST['Email'])?$_POST['Email']:'';
 			$Message1 = !empty($_POST['Message'])?$_POST['Message']:'';
 			$Message = wordwrap($Message1,70);
+	if (strlen($Phone)==10){
+			$PhoneFormat = sprintf("%s-%s-%s",
+              substr($Phone, 0, 3),
+              substr($Phone, 3, 3),
+              substr($Phone, 6));
+	}elseif (strlen($Phone)==11){
+		$PhoneFormat = sprintf("%s-%s-%s-%s",
+			  substr($Phone, 0, 1),
+              substr($Phone, 1, 3),
+              substr($Phone, 4, 3),
+              substr($Phone, 7));
+	}elseif (strlen($Phone)==7){
+		$PhoneFormat = sprintf("%s-%s",
+              substr($Phone, 0, 3),
+              substr($Phone, 3));
+	}else{
+		$PhoneFormat = $Phone;
+	}
 	
             
 			$to = "myk410@gmail.com";
@@ -79,7 +97,7 @@ if(isset($_POST['submit'])){
 				</div><br>
 				<h3>Contact $FirstName:</h3>
 				<p>
-				<b>Phone:</b> $Phone<br>
+				<b>Phone:</b> <a href=\"tel:$Phone\">$PhoneFormat</a><br><br>
 				<b>Email:</b> $Email<br></p>
 				</center>
 				</div>
