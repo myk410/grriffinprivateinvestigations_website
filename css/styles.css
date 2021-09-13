@@ -12,6 +12,9 @@
   .expanded {
     display: block;
   }
+	h1{
+		font-size: 5rem !important;
+	}
 }
 
 @media (max-width: 991px) {
@@ -20,9 +23,20 @@
   }
 }
 
+@media (min-width: 768px) {
+
+	h1{
+		font-size: 4.5rem !important;
+	}
+}
+
 .dkRedBG {
 	background: #300A14 !important;
 	border-color: #300A14;
+}
+
+.firstJumbo{
+	background-color: #E9E9E9 !important;
 }
 
 .buttonLink{
@@ -69,4 +83,79 @@ h1.title {
 	margin-bottom: -1rem;
 	padding-top: .5rem;
 	
+}
+
+.logo{
+	background-color: #fff !important;
+}
+
+.mainInfo{
+	padding: 2rem;
+	align-content: center;
+	text-align: center;
+	background-color: #fff;
+}
+
+.footerText{
+	font-size: 1rem;
+}
+
+.tagLine{
+	font-weight: 300;
+	font-size:2rem;
+}
+
+.tagLineBold{
+	font-weight: 600;
+	font-size:2rem;
+}
+
+@media (max-width: 767px){
+	.resizeLogo{
+		width:5rem;
+	}
+}
+
+@media (max-width: 576px){
+	.tagLine{
+	font-weight: 300;
+	font-size:1.75rem;
+}
+
+	.tagLineBold{
+	font-weight: 600;
+	font-size:1.75rem;
+}
+	
+	.footerText{
+	font-size: .75rem;
+}
+	.resizeLogo{
+		width:4rem;
+	}
+	h1{
+		font-size:2.5rem !important;
+	}
+}
+
+@media (max-width:400px){
+		.resizeLogo{
+		width:3rem;
+	}
+	h1{
+		font-size:2rem !important;
+	}
+}
+
+@media (max-width: 338px){
+		.footerText{
+	font-size: .65rem;
+}
+	
+	.resizeLogo{
+		width:2.5rem;
+	}
+	h1{
+		font-size:1.75rem !important;
+	}
 }
