@@ -2678,15 +2678,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-info {
-  color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+	color: #fff;
+	background-color: #117a8b;
+	border-color: #117a8b;
 }
 
 .btn-info:hover {
-  color: #fff;
-  background-color: #138496;
-  border-color: #117a8b;
+	color: #300A14;
+	background-color: #ffcc00;
+	border-color: #ffcc00;
 }
 
 .btn-info:focus, .btn-info.focus {
@@ -10236,4 +10236,3 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-

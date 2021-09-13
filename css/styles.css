@@ -21,7 +21,7 @@
 }
 
 .dkRedBG {
-	background: #300A14;
+	background: #300A14 !important;
 	border-color: #300A14;
 }
 
@@ -41,4 +41,32 @@
 .rectangle-yellow {
   height: 5px;
   background-color: #FFCC00;
+}
+
+.yellow {
+	color: #ffcc00 !important;
+}
+
+.label1 {
+	color: #ffcc00 !important;
+	font-size:1.25rem;
+}
+
+h1.title {
+	font-size:3rem;
+	margin-bottom: 2rem;
+}
+
+.flip-horizontally {
+  transform: scaleX(-1);
+}
+
+.footer{
+	background-color: #300A14;
+	height:2.5rem;
+	bottom: 0;
+	overflow: hidden;
+	margin-bottom: -1rem;
+	padding-top: .5rem;
+	
 }
