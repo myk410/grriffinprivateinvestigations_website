@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
 			
 			<div class=\"jumbotron\">
 			<center>
-			<h1><u>New Consultation</u></h1><br>
+			<h1>New Consultation</h1><br>
 			<h2>You have received a message from <u>$FirstName $LastName</u>:</h2>
 			<br><br>
 				
