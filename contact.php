@@ -91,9 +91,9 @@ if(isset($_POST['submit'])){
 			$header .= "MIME-Version: 1.0\r\n";
 			$header .= "Content-type: text/html\r\n"; */
 	
-			$headers .= "Reply-To: The Sender <GriffinPI@no-rerply.com>\r\n"; 
-  			$headers .= "Return-Path: The Sender <GriffinPI@no-rerply.com>\r\n"; 
-  			$headers .= "From: The Sender <GriffinPI@no-rerply.com>\r\n";
+			$headers .= "Reply-To: Griffin PI Consultation <GriffinPI@no-rerply.com>\r\n"; 
+  			$headers .= "Return-Path: Griffin PI Consultation <GriffinPI@no-rerply.com>\r\n"; 
+  			$headers .= "From: Griffin PI Consultation <GriffinPI@no-rerply.com>\r\n";
   			$headers .= "MIME-Version: 1.0\r\n";
   			$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
   			$headers .= "X-Priority: 3\r\n";
